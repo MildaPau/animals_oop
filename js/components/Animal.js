@@ -10,7 +10,7 @@ class Animal {
     }
 
     introduce() {
-        console.log(`Hi, my name is ${this.name}, my color is ${this.Color} and speak like this: ${this.sound}!`);
+        console.log(`Hi, my name is ${this.name}, my color is ${this.color} and speak like this: ${this.sound}!`);
     }
 }
 

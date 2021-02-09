@@ -17,9 +17,9 @@ class Bird extends Animal {
 
     flyAway() {
         if(this.canFly === true) {
-            console.log('${name} flys away');
+            console.log(`${this.name} flys away`);
         } else {
-            console.log('Do not flys away');
+            console.log(`${this.name} do not flys away`);
         }
     }
 }
